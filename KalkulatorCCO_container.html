@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>cco calc</title>
+    </head>
+    <style>
+        body {
+           width: 100%; 
+           height: 100% ;
+           
+        }
+        h4 {
+            width: 390px;
+            height: 390px;
+        }
+        h3 {
+            font-style: italic;
+        }
+    </style>
+    <body bgcolor= "# 000000" text= "white">
+        <h3>CCO Container calculator</h3>
+        <form name="calculator">
+            
+
+<input type="button" value="locked container (LC)" onClick="document.calculator.ans.value+='(1*1000)* '">
+<br>
+<br>
+<input type="button" value="locked rare container (LRC)" onClick="document.calculator.ans.value+='(1*10000)*'">
+<br>
+<br>
+<input type="button" value="Legendary Locked Container(LLC)" onClick="document.calculator.ans.value+='(1*50000)*'">
+<br>
+<br>
+<br>
+<input type="button" value="lc (ts)" onClick="document.calculator.ans2.value+='(1*32)*'">
+<br>
+<br>
+<input type="button" value="lrc (ts) " onClick="document.calculator.ans2.value+='(1*64)*'">
+<br>
+<br>
+<input type="button" value="llc (ts)" onClick="document.calculator.ans2.value+='(1*128)*'">
+<br> 
+<br>
+<br>
+<br>
+<input type="reset" value="Reset">
+<br>
+hasil (btc) <input type="textfield" name="ans" value="">
+<input type="button" value="=" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)">
+<br>
+<br>
+<br>
+hasil (ts) <input type="textfield" name="ans2" value="">
+<input type="button" value="=" onClick="document.calculator.ans2.value=eval(document.calculator.ans2.value)">
+
+<h3> CCO backpack calculator </h3>
+
+<input type="button" value="old pouch" onclick="document.calculator.bp.value+='(1*100)*'">
+<br>
+<br>
+<input type="button" value="fanny pack" onclick="document.calculator.bp.value+='(10*100)*'">
+<br>
+<br>
+<input type="button" value="explorer's backpack" onclick="document.calculator.bp.value+='(100*10*15)*'">
+
+
+<br>
+hasil (ts) <input type="textfield" name="bp" value="">
+<input type="button" value="=" onClick="document.calculator.bp.value=eval(document.calculator.bp.value)">
+<h4>kalkulator ini dipersiapkan untuk player yang kesusahan menghitung dalam jumlah besar,misalnya 15k lc ataupun tas</h4>
+        </form>
+      </body>
+</html>
